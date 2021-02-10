@@ -1,6 +1,6 @@
 ﻿namespace ZipTestApp
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -34,20 +34,20 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(634, 31);
+            this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Go";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(40, 60);
+            this.textBox1.Location = new System.Drawing.Point(12, 41);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(722, 371);
+            this.textBox1.Size = new System.Drawing.Size(776, 397);
             this.textBox1.TabIndex = 1;
             // 
             // Form1
@@ -58,7 +58,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Main";
             this.ResumeLayout(false);
             this.PerformLayout();
 
