@@ -101,9 +101,7 @@ namespace ZipTestApp
                        x.Elements(ns + "LookAt").Select(c => c.Element(ns + "latitude")).FirstOrDefault().Value : "",
                        // etc
                    }).ToList();
-
             }
-           
         }
     }
 
